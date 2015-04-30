@@ -1,0 +1,34 @@
+[
+	{'id':'blackScreen', 'x':0, 'y':0, 'alpha':1},
+	{'id':'paisly2', 'x':0, 'y':0, 'alpha':0},
+	{'cat':'ipa', 'alpha':0, 'images':
+		[
+			{'id':'IPA-K', 'x':687, 'y':395}, {'id':'IPA-a', 'x':835, 'y':436},
+			{'id':'IPA-DiacritUpper', 'x':946, 'y':436},
+			{'id':'IPA-DiacritLower', 'x':946, 'y':509},
+			{'id':'IPA-l', 'x':987, 'y':394}, {'id':'IPA-e', 'x':1052, 'y':436},
+			{'id':'IPA-b', 'x':1127, 'y':394}, {'id':'IPA-P', 'x':687, 'y':551},
+			{'id':'IPA-r', 'x':749, 'y':579}, {'id':'IPA-shwa', 'x':789, 'y':579},
+			{'id':'IPA-diacrit', 'x':845, 'y':551},
+			{'id':'IPA-d', 'x':872, 'y':551}, {'id':'IPA-u', 'x':933, 'y':579},
+			{'id':'IPA-smallK', 'x':988, 'y':551},
+			{'id':'IPA-sh', 'x':1025, 'y':551},
+			{'id':'IPA-2ndShwa', 'x':1075, 'y':579},
+			{'id':'IPA-n', 'x':1127, 'y':579}, {'id':'IPA-s', 'x':1185, 'y':579}
+		]
+	},
+	{'cat':'nipa', 'alpha':0, 'images':
+		[
+			{'id':'NIPA-K', 'x':716, 'y':398}, {'id':'NIPA-a', 'x':872, 'y':398},
+			{'id':'NIPA-l', 'x':961, 'y':398}, {'id':'NIPA-e', 'x':1014, 'y':398},
+			{'id':'NIPA-b', 'x':1098, 'y':398}, {'id':'NIPA-P', 'x':716, 'y':555},
+			{'id':'NIPA-r', 'x':779, 'y':585}, {'id':'NIPA-o', 'x':815, 'y':585},
+			{'id':'NIPA-d', 'x':862, 'y':555}, {'id':'NIPA-u', 'x':909, 'y':585},
+			{'id':'NIPA-c', 'x':961, 'y':585}, {'id':'NIPA-t', 'x':1002, 'y':555},
+			{'id':'NIPA-i', 'x':1033, 'y':585},
+			{'id':'NIPA-dot', 'x':1033, 'y':555},
+			{'id':'NIPA-2ndO', 'x':1059, 'y':585},
+			{'id':'NIPA-n', 'x':1107, 'y':585}, {'id':'NIPA-s', 'x':1158, 'y':585}
+		]
+	}
+]

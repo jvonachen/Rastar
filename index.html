@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Rastar</title>
+	<link rel="stylesheet" href="main.css" type="text/css" charset="UTF-8"/>
+	<link rel="shortcut icon" href="favicon.ico?v=2" />
+	<script src="main.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+	<script type="text/javascript" src="imageObject.js"></script>
+	<script type="text/javascript" src="UI.js"></script>
+</head>
+<body onload="init();">
+<div id="seqTopButDiv">
+	<button id="newButton">New</button>
+	<button id="renameButton">Rename</button>
+	<button id="openButton">Open</button>&nbsp;&nbsp;
+	<span title="Display Resolutions">
+		<select id="drSelect">
+		</select>
+	</span>
+	<span id="arSpan" title="Aspect Ratio"> </span>
+	<span id="resSpan" title="Resolution" > </span>
+	<span title="Frames Per Second"><input id="fpsInput">fps</span>
+	<span id="lenTimeSpan" title="Length in Hours Minutes Seconds"> </span>
+	<span id="framesSpan" title="Total Frames">0</span>
+	<button id="renderButton"><b>Render</b></button>
+</div>
+<span id="seqTitle"> </span>
+<button title="Send a Message to the Developer" id="sbButton">Suggestion Box
+	</button>
+<div id="mainCanvasDiv"><canvas id="mainCanvas"> </canvas></div>
+<div id="seqBotButDiv">
+	<span id="worResSpan" title="Working Resolution"> </span>
+	<span title="Working Frames Per Second"><input id="worFPSInput">fps</span>
+	<span>Ranges<select>
+		<option>All</option>
+		<option>Chapter 1 00:00:00-00:10:00</option>
+		<option>Chapter 2 00:10:00-00:20:00</option>
+	</select></span>
+	<button id="addRanButton" title="Add a Working Range">+</button>
+	<button id="remRanButton" title="Remove Selected Range">x</button
+	>&nbsp;&nbsp;
+	<button id="b1SButton" title="Back 1 Second">1s</button>
+	<button id="b10FButton" title="Back 10 Frames">10f</button>
+	<button id="b5FButton" title="Back 5 Frames">5f</button>
+	<button id="b1FButton" title="Back 1 Frame">1f</button>
+	<button id="playStopButton" title="Play/Stop">Play</button>
+	<button id="f1FButton" title="Forward 1 Frame">1f</button>
+	<button id="f5FButton" title="Forward 5 Frames">5f</button>
+	<button id="f10FButton" title="Forward 10 Frames">10f</button>
+	<button id="f1SButton" title="Forward 1 Second">1s</button>
+	&nbsp;
+	<button>Loop</button>
+	<button>Return</button>
+</div>
+<div id="edTopButDiv">
+	<button>Sounds</button> <button>Tracks</button> <button>Images</button>
+	<button>Transitions</button> <button>Manual</button> <button>Tabbed</button>
+	<button>Navigation</button> <button>For</button> <button>Model</button>
+	<button>Files</button>
+</div>
+<textarea id="edTA"> </textarea>
+<div id="edBotButDiv">
+	<button>Tools</button> <button>To</button> <button>Help</button>
+	<button>Write</button> <button>Model</button> <button>With</button>
+	<button>These</button> <button>Buttons</button> <button>Including</button>
+	<button>Sound</button>
+</div>
+	<!-- old stuff
+  	<div id="controlDiv" style="position:absolute; left:0px; top:1090px;">
+  		<span id="framesSpan">0</span>
+    	<button id="playButton"
+    		onclick="loopHandle = setInterval(function () { animationLoop(false); }, 1000 / 24);"
+    		disabled="disabled" 
+    	>Play</button>
+    	<button
+    		id="nextButton"
+    		onclick="animationLoop(true);"
+    		disabled="disabled"
+    	>Next->Save</button>
+    	<button
+    		id="allButton"
+    		onclick="loopHandle = setInterval(function () { animationLoop(true); }, 5000);"
+    		disabled="disabled" 
+    	>All->Save</button>
+    	<a id="saveLink" style="visibility: hidden; display: none;">Save</a>
+    	<span id="debug"> </span>
+  	</div> -->
+<dialog id="splashDialog">
+	<img src="Logo250.png" /><br />
+	<div id="creditDiv">Developed by John Vonachen for Kaleb
+		Productions</div>
+	<div id="splashCloseDiv">
+		<button id="closeSplashButton">Close</button>
+	</div>
+</dialog>
+</body>
+</html>

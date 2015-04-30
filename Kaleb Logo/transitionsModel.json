@@ -1,0 +1,17 @@
+[
+	{'cat':'ipa', 'from':0, 'to':48, 'alpha':1/48},
+	{'cat':'nipa', 'from':48, 'to':96, 'alpha':1/48},
+	{'cat':'ipa', 'from':96, 'to':144, 'alpha':-1/48},
+	{'cat':'nipa', 'from':192, 'to':240, 'alpha':-1/48},
+	{'cat':'ipa', 'from':0, 'to':240, 'x':-2},
+	{'cat':'nipa', 'from':0, 'to':240, 'y':1, 'x':1},
+	{'id':'NIPA-K', 'from':96, 'to':240, 'idMap':'paisly2', 'perCh':1},
+	{'cat':'ipa', 'from':0, 'to':48, 'alpha':1, 'how':'stag'},
+	{'cat':'ipa', 'from':48, 'to':96, 'imageDataMap':'paisly', 'how':'stag'},		
+	{'cat':'ipa', 'from':96, 'to':144, 'x':-100},
+	{'cat':'ipa', 'from':144, 'to':168, 'alpha':0},
+	{'cat':'nipa', 'from':72, 'to':120, 'alpha':1},
+	{'cat':'nipa', 'from':120, 'to':144, 'x':-100},
+	{'cat':'nipa', 'from':144, 'to':168, 'imageDataMap':'white'},
+	{'cat':'nipa', 'from':216, 'to':240, 'alpha':0}
+]

@@ -1,0 +1,34 @@
+input { text-align: center; }
+
+#seqTopButDiv  { position: relative; top: 4px; left: 4px; }
+#fpsInput      { width: 1em; }
+#worFPSInput   { width: 1em; }
+#renderButton  { background-color: #0000AA; color: #FFFFFF;}
+#seqTitle      { position: absolute; top: 35px; left: 20px; color: #FFFFFF;
+	font-size: 30px;}
+#sbButton      { position: absolute; right: 4px; top: 4px; }
+
+#mainCanvasDiv { text-align: center; background-color: black; }
+#mainCanvas    { position: relative; top:50px; }
+
+#seqBotButDiv  { text-align: center; position: relative; top: -3px; }
+#addRanButton  { background-color: #00AA00; color:#FFFFFF; }
+#remRanButton  { background-color: #AA0000; color: #FFFFFF; }
+#b1SButton     { background-color: #FFBBBB; }
+#b10FButton    { background-color: #FFCCCC; }
+#b5FButton     { background-color: #FFDDDD; }
+#b1FButton     { background-color: #FFEEEE; }
+#playStopButton { background-color: #FFFFFF; }
+#f1FButton     { background-color: #EEEEFF; }
+#f5FButton     { background-color: #DDDDFF; }
+#f10FButton    { background-color: #CCCCFF; }
+#f1SButton     { background-color: #BBBBFF; }
+
+#edTopButDiv   { text-align: center; position: relative; top: 4px; }
+#edTA          { height: 500px; background-color: black;
+	color: #00FF00; font-family:"Courier New", Courier, monospace;
+	font-size: 20px; }
+#edBotButDiv   { text-align: center; position:relative; top: -4px; }
+#splashCloseDiv { text-align: center; position: relative; top: 6px; }
+#splashDialog  { position: absolute; top:150px; }
+#creditDiv     { text-align: center; font-size: 12px; }
